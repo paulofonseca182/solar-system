@@ -1,11 +1,20 @@
 import PlanetCard from './PlanetCard';
 import Title from './Title';
+import planets from '../data/planets';
 
 function SolarSystem() {
   return (
     <div data-testid="solar-system">
       <Title headline="Planetas" />
-      <PlanetCard planetName="Plutao" planetImage="aasd" />
+      {
+        planets.map((planet) => (
+          <PlanetCard
+            key={ planet.name }
+            planetName={ planet.name }
+            planetImage={ planet.image }
+          />
+        ))
+}
     </div>
   );
 }

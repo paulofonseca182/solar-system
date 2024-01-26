@@ -6,7 +6,7 @@ type PlanetProps = {
 function PlanetCard({ planetName, planetImage }: PlanetProps) {
   return (
     <div data-testid="planet-card">
-      <p>{planetName}</p>
+      <p data-testid="planet-name">{planetName}</p>
       <img src={ planetImage } alt={ `Planeta ${planetName}` } />
     </div>
   );
