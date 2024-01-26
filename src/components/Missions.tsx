@@ -1,7 +1,9 @@
+import Title from './Title';
+
 function Missions() {
   return (
     <div data-testid="missions">
-      <p>test</p>
+      <Title headline="Missões" />
     </div>
   );
 }
