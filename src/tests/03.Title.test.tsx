@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Title from '../components/Title';
 
-const headlineText = 'planets';
+const headlineText = 'Planetas';
 
 describe('3 - Crie um componente chamado `Title`', () => {
   it('Será validado se o componente `<Title />` é renderizado', () => {
@@ -20,6 +20,6 @@ describe('3 - Crie um componente chamado `Title`', () => {
     render(<Title headline={ headlineText } />);
     const headline = screen.getByRole('heading', { level: 2 });
 
-    expect(headline).toHaveTextContent(/planets/i);
+    expect(headline).toHaveTextContent(/Planetas/i);
   });
 });

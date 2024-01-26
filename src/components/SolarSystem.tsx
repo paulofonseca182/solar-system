@@ -1,7 +1,9 @@
+import Title from './Title';
+
 function SolarSystem() {
   return (
     <div data-testid="solar-system">
-      <p>Teste</p>
+      <Title headline="Planetas" />
     </div>
   );
 }
