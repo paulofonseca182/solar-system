@@ -7,7 +7,7 @@
 - css
 
 ## Habilidades 📌
-- Utilizar JSX no React.
+- Utilizar TSX no React.
 - Utilizar corretamente o método render() para renderizar seus componentes.
 - Utilizar import para trazer componentes em diferentes arquivos.
 - Criar componentes de classe em React.
