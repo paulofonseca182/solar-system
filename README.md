@@ -3,7 +3,6 @@
 
 ## Tecnologias usadas 🚀 
 - Typecript 
-- tsx
 - React
 - css
 
