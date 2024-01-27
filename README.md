@@ -2,7 +2,7 @@
 - Aplicação para visualizar os planetas do sistema solar e informações sobre missões espaciais.
 
 ## Tecnologias usadas 🚀 
-- javascript 
+- Typecript 
 - tsx
 - React
 - css
