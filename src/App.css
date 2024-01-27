@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+.missions-frame{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}

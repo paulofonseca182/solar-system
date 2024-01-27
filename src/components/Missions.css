@@ -1,0 +1,17 @@
+.missions {
+    color: aliceblue;
+    width: 1000px;
+    background-color: rgba(24, 24, 24, 0.577);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

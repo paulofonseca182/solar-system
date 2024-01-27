@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('/home/paulo/Documentos/Revisao-Trybe/Projetos/sd-027-a-exercise-solar-system/src/images/background.png')
+}

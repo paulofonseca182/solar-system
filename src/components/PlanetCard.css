@@ -1,0 +1,55 @@
+.planets {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+.Mercúrio {
+    width: 60px;
+    animation: loading 25s linear infinite;
+}
+.Vênus {
+    width: 80px;
+    animation: loading 25s reverse infinite;
+}
+.Terra {
+    width: 85px;
+    animation: loading 25s linear infinite;
+}
+.Marte {
+    width: 68px;
+    animation: loading 25s reverse infinite;
+}
+.Júpiter {
+    width: 200px;
+    animation: loading 25s reverse infinite;
+}
+.Saturno {
+    width: 200px;
+    animation: loading 35s linear infinite;
+}
+.Urano {
+    width: 100px;
+    animation: loading 25s linear infinite;
+}
+.Netuno {
+    width: 100px;
+    animation: loading 25s reverse infinite;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 20px;
+}

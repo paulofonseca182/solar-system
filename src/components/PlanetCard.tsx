@@ -1,3 +1,5 @@
+import './PlanetCard.css';
+
 type PlanetProps = {
   planetName: string;
   planetImage: string;
@@ -5,9 +7,9 @@ type PlanetProps = {
 
 function PlanetCard({ planetName, planetImage }: PlanetProps) {
   return (
-    <div data-testid="planet-card">
+    <div className="planets" data-testid="planet-card">
+      <img className={ planetName } src={ planetImage } alt={ `Planeta ${planetName}` } />
       <p data-testid="planet-name">{planetName}</p>
-      <img src={ planetImage } alt={ `Planeta ${planetName}` } />
     </div>
   );
 }
